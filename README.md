@@ -6,11 +6,11 @@ This project aims to build a machine learning model to predict the creditworthin
 
 ## Folders
 
-- **data set**: This folder contains the dataset used to train the machine learning model, as well as the validation set. The training dataset includes labeled financial ratios and corresponding corporate ratings, while the validation set is used to evaluate the performance of the model.
+- **Datasets**: This folder contains the dataset used to train the machine learning model, as well as the validation set. The training dataset includes labeled financial ratios and corresponding corporate ratings, while the validation set is used to evaluate the performance of the model.
 
-- **notebook file**: This folder contains the Jupyter notebook file where the model is trained and evaluated. It also includes the Streamlit application code for deploying the model as a user interface.
+- **Notebook**: This folder contains the Jupyter notebook file where the model is trained and evaluated. It also includes the Streamlit application code for deploying the model as a user interface.
 
-- **pickles file**: This folder contains the pickled files of the trained machine learning model and transformers. These files are used to load the trained model and transformers for making predictions in the Streamlit application.
+- **Pickles**: This folder contains the pickled files of the trained machine learning model and transformers. These files are used to load the trained model and transformers for making predictions in the Streamlit application.
 
 ## Data Collection
 
@@ -32,7 +32,7 @@ A validation set was used to evaluate the performance of the model and ensure it
 
 The machine learning model was deployed using Streamlit to create a user-friendly interface for users to input company information and get a predicted corporate rating. The interface includes input fields for company symbol, year, and several financial ratios, as well as a button to submit the inputs and get the predicted rating.
 
-## Getting Started
+### Getting Started
 
 To use the Streamlit application, you will need to install the necessary dependencies using the following command:
 
